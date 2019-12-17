@@ -55,5 +55,9 @@
     </navigator>
   </view>
 
-  <view></view>
+
+  <view>
+    <view>abcd</view>
+  </view>
+
 </view>
