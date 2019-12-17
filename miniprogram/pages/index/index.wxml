@@ -55,10 +55,9 @@
     </navigator>
   </view>
 
-
+  <!--测试-->
   <view>
     <view>abcd</view>
   </view>
 
-  <view></view>
 </view>
