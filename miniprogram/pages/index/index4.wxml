@@ -1,8 +1,7 @@
 <!--pages/index/index4.wxml-->
-<text>账号管理：</text>
+<text>个人中心：</text>
+<text>账号管理</text>
 <text>个人信息</text>
 <text>历史记录</text>
 <text>版本</text>
 <text>反馈</text>
-
-

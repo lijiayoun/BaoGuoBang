@@ -23,7 +23,7 @@
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#FF7F00",
     "navigationBarTitleText": "包裹帮",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true
     
   },
@@ -46,7 +46,7 @@
     },
     {
       "pagePath": "pages/index/index4",
-      "text": "账号管理",
+      "text": "个人中心",
       "iconPath": "pages/icon/account.png",
       "selectedIconPath": "pages/icon/account_active.png"
       
