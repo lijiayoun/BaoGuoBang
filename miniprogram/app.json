@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/index/index2",
+    "pages/index/index3",
+    "pages/index/index4",
+        
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -16,11 +20,40 @@
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF7F00",
+    "navigationBarTitleText": "包裹帮",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+    
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index2",
+      "text": "主页",
+      "iconPath": "pages/icon/main.png",
+      "selectedIconPath": "pages/icon/main_active.png"
+    },
+    {
+      "pagePath": "pages/index/index3",
+      "text": "发布",
+      "iconPath": "pages/icon/publish.png",
+      "selectedIconPath": "pages/icon/publish_active.png"
+      
+    },
+    {
+      "pagePath": "pages/index/index4",
+      "text": "账号管理",
+      "iconPath": "pages/icon/account.png",
+      "selectedIconPath": "pages/icon/account_active.png"
+      
+    }],
+    "color": "#000000",
+    "selectedColor": "#FF7F00",
+    "borderStyle": "black"
+  }
+  
 }

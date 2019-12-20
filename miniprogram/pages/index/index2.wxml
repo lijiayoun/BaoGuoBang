@@ -1,0 +1,5 @@
+<!--pages/index/index2.wxml-->
+<text>本页是主页，展示被发布的包裹信息：</text>
+<text>包裹一</text>
+<text>包裹二</text>
+<text>包裹三</text>
