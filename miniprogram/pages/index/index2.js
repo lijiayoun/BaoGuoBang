@@ -5,6 +5,12 @@ Page({
    * Page initial data
    */
   data: {
+    Parcel:{
+      owner:"李嘉成",
+      address:"学生3栋323",
+      parcelId:1,
+      parcelNum:1
+    }
 
   },
 
