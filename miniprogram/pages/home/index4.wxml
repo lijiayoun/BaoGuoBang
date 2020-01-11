@@ -1,7 +1,39 @@
-<!--pages/index/index4.wxml-->
-<text>个人中心：</text>
-<text>账号管理</text>
-<text>个人信息</text>
-<text>历史记录</text>
-<text>版本</text>
-<text>反馈</text>
+<!--条目列表  -->
+<view  class="setup-list">
+
+        <view class="head float">
+            <open-data type="userAvatarUrl" />
+        </view>
+        <view class="name float">
+            <open-data type="userNickName" />
+        </view>
+
+        <text>\n\n\n\n\n\n\n\n\n\n</text>
+        
+        <navigator url='' style=" align: center">
+                <image src='../home/icon/message.png'></image>
+                <text style="text-align:right">私信</text>
+                <image src='../home/icon/right.png'></image>
+
+        </navigator>
+        <navigator url="">
+                <image src='../home/icon/parcel.png'></image>
+
+                <text>包裹管理</text>
+                <image src='../home/icon//right.png'></image>
+        </navigator>
+         <navigator url="../home/identityBinding/binding.wxml">
+                <image src='../home/icon/binding.png'></image>
+
+                <text>身份绑定</text>
+                <image src='../home/icon//right.png'></image>
+        </navigator>
+         <navigator  url=''>
+                <image src='../home/icon/feedback.png'></image>
+
+                <text>反馈</text>
+                <image src='../home/icon//right.png'></image>
+        </navigator>
+        <view class='quit' bindtap='quitFn'><text>退出登陆</text></view>
+        
+</view>
