@@ -48,3 +48,9 @@
     float: left;
     
 }
+.item-image{
+    width: 40rpx;
+    flex-direction: row;
+    align-items: center;
+    height: 80rpx;
+}

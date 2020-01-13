@@ -11,7 +11,7 @@
         <text>\n\n\n\n\n\n\n\n\n\n</text>
         
         <navigator url='' style=" align: center">
-                <image src='../home/icon/message.png'></image>
+                <image class="item-image"  src='../home/icon/message.png'></image>
                 <text style="text-align:right">私信</text>
                 <image src='../home/icon/right.png'></image>
 
@@ -22,13 +22,13 @@
                 <text>包裹管理</text>
                 <image src='../home/icon//right.png'></image>
         </navigator>
-         <navigator url="../home/identityBinding/binding.wxml">
+         <navigator url="../home/identityBinding/binding">
                 <image src='../home/icon/binding.png'></image>
 
                 <text>身份绑定</text>
                 <image src='../home/icon//right.png'></image>
         </navigator>
-         <navigator  url=''>
+         <navigator  url='' >
                 <image src='../home/icon/feedback.png'></image>
 
                 <text>反馈</text>
