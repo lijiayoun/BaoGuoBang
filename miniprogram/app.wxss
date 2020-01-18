@@ -154,3 +154,17 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+/**app.wxss**/
+@import "./style/guide.wxss";
+
+.container {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+page {
+    background-color: #F2f2f2;
+}

@@ -1,15 +1,14 @@
 {
   "pages": [
-    "pages/parcelList/index2",
-    "pages/publish/index3",
-    "pages/home/index4",
-    "pages/index/index",
-    "pages/home/identityBinding/binding"
+    "pages/parcelList/parcelList",
+    "pages/publish/publish",
+    "pages/home/home",
+    "pages/index/index"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#F2f2f2",
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#FF7F00",
+    "navigationBarBackgroundColor": "#292929",
     "navigationBarTitleText": "包裹帮",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true
@@ -18,29 +17,31 @@
   "style": "v2",
 
   "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#f9f027",
+    "borderStyle": "white",
+    "backgroundColor": "#292929",
     "list": [{
-      "pagePath": "pages/parcelList/index2",
+      "pagePath": "pages/parcelList/parcelList",
       "text": "主页",
       "iconPath": "pages/icon/main.png",
       "selectedIconPath": "pages/icon/main_active.png"
     },
     {
-      "pagePath": "pages/publish/index3",
+      "pagePath": "pages/publish/publish",
       "text": "发布",
       "iconPath": "pages/icon/publish.png",
       "selectedIconPath": "pages/icon/publish_active.png"
       
     },
     {
-      "pagePath": "pages/home/index4",
+      "pagePath": "pages/home/home",
       "text": "个人中心",
       "iconPath": "pages/icon/account.png",
       "selectedIconPath": "pages/icon/account_active.png"
       
-    }],
-    "color": "#000000",
-    "selectedColor": "#FF7F00",
-    "borderStyle": "black"
+    }]
+
   }
-  
+
 }
