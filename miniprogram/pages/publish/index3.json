@@ -1,7 +1,0 @@
-{
-  "usingComponents": {},
-  "navigationBarTitleText": "发布",
-  "pages":[
-    "identityBinding/binding"
-  ]
-}
