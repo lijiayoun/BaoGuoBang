@@ -4,18 +4,20 @@
 .userinfo {
   display: flex;
   flex-direction: column;
-  padding: 50rpx 0;
+  padding: 70rpx;
   align-items: center;
   background: #FF7F00;
   margin: 0;
 }
-view.userinfo-avatar {
+ .userinfo-avatar {
+   overflow: hidden;
   width: 100rpx;
-  height: 100rpx;
-  margin: 20rpx;
+  height: 1000rpx;
+  margin: 0rpx;   
   border-radius: 50%;
 }
-view.userinfo-nickname {
+.userinfo-nickname {
+  margin: 0rpx;
   color: #333;
 }
 .weui_cell{
