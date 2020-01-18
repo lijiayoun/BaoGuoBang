@@ -10,14 +10,15 @@
   margin: 0;
 }
  .userinfo-avatar {
-   overflow: hidden;
-  width: 100rpx;
-  height: 1000rpx;
+  overflow: hidden;
+  width: 150rpx;
+  height: 150rpx;
   margin: 0rpx;   
   border-radius: 50%;
 }
 .userinfo-nickname {
-  margin: 0rpx;
+  background-color: #FF7F00;
+  margin-bottom: -50rpx;
   color: #333;
 }
 .weui_cell{
