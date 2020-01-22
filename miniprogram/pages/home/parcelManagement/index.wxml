@@ -1,24 +1,16 @@
 <!--包裹列表-->
-<view class="parcel-list">
+
 <text>这里是包裹管理页面，按照时间由近到远显示自己将要帮别人取的包裹（显示为红色）\n或者是别人帮你取的包裹（显示为黄色）
 下拉刷新，这里是动态列表
 </text>
-<navigator url="" class="parcelget">
-<view class="parcelget">
+<view class="parcel-get">
+<navigator>
 <text>包裹一</text>
-</view>
-</navigator>
-
-
-
-
-
-<text>\n下面是历史记录，显示的是已经完成的订单（绿色表示正常交易完成，黑色表示出现各种原因造成的非正常订单）\n</text>
-<navigator url="../home/parcelManage/history" style="align: center">
-     
-                <text style="align: center">历史记录</text>
-                <image src='../home/icon/right.png'></image>
-
-
 </navigator>
 </view>
+<view class="parcel-publish">
+<navigator>
+<text>包裹二</text>
+</navigator>
+</view>
+

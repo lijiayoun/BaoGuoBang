@@ -1,1 +1,9 @@
-<text>历史记录</text>
+<text>下面是历史记录，显示的是已经完成的订单（绿色表示正常交易完成，黑色表示出现各种原因造成的非正常订单)\n</text>
+<view class="success">
+<navigator><text>历史记录一</text></navigator>
+
+</view>
+<view class="fail">
+<navigator><text>历史记录二</text></navigator>
+
+</view>

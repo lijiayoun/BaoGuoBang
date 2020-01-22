@@ -1,0 +1,41 @@
+/*/miniprogram/pages/home/pacelhistory/history.wxss */
+.success{
+  padding: 0 30rpx;
+}
+.success navigator {
+    display: flex;
+     justify-content:space-between;
+     padding: 30rpx 0;
+     border-bottom: 1rpx solid #e8e8e8;
+}
+.success navigator text{
+    width: 100%;
+    padding: 18rpx 0;
+    background-color: rgb(74, 255, 2);
+    display: flex;
+    font-size: 50rpx;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rpx;
+}
+.fail{
+  padding: 0 30rpx;
+}
+.fail navigator {
+    display: flex;
+     justify-content:space-between;
+     padding: 30rpx 0;
+     border-bottom: 1rpx solid #e8e8e8;
+}
+.fail navigator text{
+    width: 100%;
+    padding: 18rpx 0;
+    background-color: rgb(25, 26, 24);
+    display: flex;
+    font-size: 50rpx;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rpx;
+}

@@ -16,9 +16,11 @@ Page({
       unreadNum: 0
     }, 
       {
-        url: "../home/parcelhistory/history",
+        url: "../home/pacelhistory/history",
         icon: '../home/icon/history.png',
-        text: '历史记录'
+        text: '历史记录',
+        isunread: false,
+        unreadNum: 0
       },
       {
       url: "../home/identityBinding/binding",
