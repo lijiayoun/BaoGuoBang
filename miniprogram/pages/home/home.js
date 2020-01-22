@@ -14,7 +14,13 @@ Page({
       text: '包裹管理',
       isunread: false,
       unreadNum: 0
-    }, {
+    }, 
+      {
+        url: "../home/parcelhistory/history",
+        icon: '../home/icon/history.png',
+        text: '历史记录'
+      },
+      {
       url: "../home/identityBinding/binding",
         icon: '../home/icon/binding.png',
       text: '身份绑定'
