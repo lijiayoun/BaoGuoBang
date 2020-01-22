@@ -1,14 +1,21 @@
 /* pages/home/parcelManagement/index.wxss */
-.parcel-list{
+.parcel-get{
   padding: 0 30rpx;
 }
-.parcel-list navigator {
+
+.item-image{
+    width: 40rpx;
+    flex-direction: row;
+    align-items: center;
+    height: 80rpx;
+}
+.parcel-get navigator {
     display: flex;
      justify-content:space-between;
      padding: 30rpx 0;
      border-bottom: 1rpx solid #e8e8e8;
 }
-.parcel-list navigator text{
+.parcel-get navigator text{
     width: 100%;
     padding: 18rpx 0;
     background-color: rgb(255, 188, 2);
@@ -19,45 +26,21 @@
     justify-content: center;
     border-radius: 10rpx;
 }
-.parcel-list navigator image{
-    height: 35rpx;
-    width: 35rpx;
+.parcel-publish{
+  padding: 0 30rpx;
 }
-.item-image{
-    width: 40rpx;
-    flex-direction: row;
-    align-items: center;
-    height: 80rpx;
-}
-.parcel-list parcelget {
-    display: flex;
-     justify-content:space-between;
-     padding: 30rpx 0;
-     border-bottom: 5rpx solid #e8e8e8;
-}
-.parcel-list parcelget text{
-  width: 100%;
-    padding: 18rpx 0;
-    background-color: rgba(217, 42, 42, 1);
-    display: flex;
-    font-size: 30rpx;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10rpx;
-}
-.parcel-list parcelpublish {
+.parcel-publish navigator {
     display: flex;
      justify-content:space-between;
      padding: 30rpx 0;
      border-bottom: 1rpx solid #e8e8e8;
 }
-.parcel-list parcelpublish text{
-  width: 100%;
+.parcel-publish navigator text{
+    width: 100%;
     padding: 18rpx 0;
-    background-color: rgb(246, 250, 2);
+    background-color: rgb(255, 61, 2);
     display: flex;
-    font-size: 30rpx;
+    font-size: 50rpx;
     color: #fff;
     align-items: center;
     justify-content: center;
