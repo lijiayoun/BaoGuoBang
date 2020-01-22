@@ -12,15 +12,15 @@ Page({
         url: "../home/parcelManagement/index",
       icon: '../home/icon/parcel.png',
       text: '包裹管理',
-      isunread: false,
-      unreadNum: 0
+      isunread: true,
+      unreadNum: 2
     }, 
       {
         url: "../home/pacelhistory/history",
         icon: '../home/icon/history.png',
         text: '历史记录',
-        isunread: false,
-        unreadNum: 0
+        isunread: true,
+        unreadNum: 3
       },
       {
       url: "../home/identityBinding/binding",
