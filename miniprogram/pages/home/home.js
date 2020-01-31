@@ -26,11 +26,8 @@ Page({
       url: "../home/identityBinding/binding",
         icon: '../home/icon/binding.png',
       text: '身份绑定'
-    }, {
-      url: "../home/feedback/index",
-        icon: '../home/icon/feedback.png',
-      text: '反馈'
-    }]
+    }
+    ]
   }
 
 })

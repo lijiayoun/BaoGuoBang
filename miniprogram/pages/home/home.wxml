@@ -1,28 +1,32 @@
 <view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    
+  <view bindtap="bindViewTap" class="userinfo">
+
     <!--<image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{nickName}}</text>-->
- 
-      <open-data class="userinfo-avatar"  type="userAvatarUrl" />
-      <open-data class="userinfo-nickname" type="userNickName" />
+
+    <open-data class="userinfo-avatar" type="userAvatarUrl" />
+    <open-data class="userinfo-nickname" type="userNickName" />
   </view>
-          
+
   <view class="info_list">
-    <block wx:for="{{userListInfo}}" >
-        <navigator  url="{{item.url}}">
-          <view class="weui_cell" >
-            <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
-
-            <view class="weui_cell_bd">
-                <view class="weui_cell_bd_p"> {{item.text}} </view>
-            </view>
-
-            <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
-
-            <view class="with_arrow"></view>
+    <block wx:for="{{userListInfo}}">
+      <navigator url="{{item.url}}">
+        <view class="weui_cell">
+          <view class="weui_cell_hd">
+            <image src="{{item.icon}}"></image>
           </view>
-        </navigator>
+
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p"> {{item.text}} </view>
+          </view>
+
+          <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+
+          <view class="with_arrow"></view>
+        </view>
+      </navigator>
     </block>
+    <text>\n\n</text>
+<button  class="button"open-type="feedback"> 意见与反馈</button>
   </view>
 </view>
