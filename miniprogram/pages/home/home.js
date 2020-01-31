@@ -27,6 +27,7 @@ Page({
         icon: '../home/icon/binding.png',
       text: '身份绑定'
     }
+  
     ]
   }
 

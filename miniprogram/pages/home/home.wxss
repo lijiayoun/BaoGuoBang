@@ -66,13 +66,14 @@
 .with_arrow{
   position: absolute;
   top: 18px;
-  right: 15px;
+  right: 15px; 
   width: 15px;
   height: 15px;
   background-image: url(../home/icon/arrowdown.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
 .button{
   background:  #FF7F00;
 }
